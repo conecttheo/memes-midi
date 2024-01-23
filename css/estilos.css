@@ -107,6 +107,12 @@ h1 {
 
 }
 
+@media screen and (min-width: 850px) {
+  .teclado {
+    width: 60%;
+  }
+
+}
 @media screen and (min-width: 1020px) {
   .teclado {
     width: 50%;
@@ -114,9 +120,23 @@ h1 {
 
 }
 
+@media screen and (min-width: 1220px) {
+  .teclado {
+    width: 40%;
+  }
+
+}
+
 @media screen and (min-width: 1420px) {
   .teclado {
     width: 30%;
+  }
+
+}
+
+@media screen and (min-width: 1720px) {
+  .teclado {
+    width: 25%;
   }
 
 }
