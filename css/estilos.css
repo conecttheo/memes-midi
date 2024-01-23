@@ -1,14 +1,18 @@
 :root {
   --cinza: #767676;
-  --vermelha: #3f2727;
-  --vermelha-escura:  #930000;
+  --vermelha: #b2007b;
+  --vermelha-escura:  #c4ff00;
   --branca: #fff;
+  --rosa: #fa40bf; 
   --luz: rgb(229, 255, 0);
 }
 
 body {
   align-items: center;
-  background: #1f0000;
+  background-image: url("/images/Design\ sem\ nome.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,9 +21,12 @@ body {
 }
 
 h1 {
-  color: var(--branca);
+  color: var(--rosa);
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 5rem;
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 4px 2px 2px rgb(104, 4, 253);
+
 }
 
 .img_meme {
@@ -98,6 +105,10 @@ h1 {
     width: 90%;
   }
 
+  .tecla {
+    width: 95%;
+  }
+
 }
 
 @media screen and (min-width: 650px) {
@@ -105,6 +116,9 @@ h1 {
     width: 70%;
   }
 
+  .tecla {
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 850px) {
