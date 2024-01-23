@@ -1,14 +1,14 @@
 :root {
   --cinza: #767676;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha: #3f2727;
+  --vermelha-escura:  #930000;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #00ff66 0%,#000000 100%);
+  background: #1f0000;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -71,4 +71,52 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+.rodape {
+  padding: 20px;
+  background-color: var(--vermelha-escura);
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+@media screen and (min-width: 390px) {
+  .teclado {
+    width: 95%;
+  }
+  .tecla {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 470px) {
+  .teclado {
+    width: 90%;
+  }
+
+}
+
+@media screen and (min-width: 650px) {
+  .teclado {
+    width: 70%;
+  }
+
+}
+
+@media screen and (min-width: 1020px) {
+  .teclado {
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 1420px) {
+  .teclado {
+    width: 30%;
+  }
+
 }
